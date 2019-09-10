@@ -1,1 +1,1 @@
-# slynk
+https://slynk.herokuapp.com
