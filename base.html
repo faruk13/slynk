@@ -1,6 +1,5 @@
 {% extends "bootstrap/base.html" %}
 
-
 {% block title %}
     {% if title %}
       {{ title }} - Link Shortener
@@ -16,34 +15,6 @@
 
 {% block navbar %}
 
-<!--
-    <nav class="navbar navbar-inverse">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a  class="navbar-brand" href="{{ url_for('index') }}"><span class="glyphicon glyphicon-link "><span class="glyphicon glyphicon-link ">Slynk</a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="{{ url_for('about') }}"><span class="glyphicon glyphicon-user"></span> About</a></li>
-                </ul>                
-                
-               
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="{{ url_for('shorten') }}"><span class="glyphicon glyphicon-link"></span> Shorten Link</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="{{ url_for('index') }}"><span class="glyphicon glyphicon-send"></span> Home</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
--->
  <div class="container">
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark pink darken-2">
     <div class="nav-wrapper">
@@ -65,8 +36,6 @@
 
 {% endblock %}
 
-
-
 {% block content %}
 
     <div class="container">
@@ -86,22 +55,12 @@
     <footer class="footer">
         <div class="container">
             <br>
-
-            <span class="text-muted grey-text text-darken-4">&copy; 2019 Umar Faruk.</span> <a href = "http://linkedin.com/in/umar-faruk" class="waves-effect waves-light btn-small social linkedin light-blue darken-4"><i class="fa fa-linkedin"></i></a>
-
-         
+            <span class="text-muted grey-text text-darken-4">&copy; 2019 Umar Faruk.</span> <a href = "http://linkedin.com/in/umar-faruk" class="waves-effect waves-light btn-small social linkedin light-blue darken-4"><i class="fa fa-linkedin"></i></a>        
         </div>
-     
     </footer>
     {% endblock footer %}
 
 {% endblock %}
-
-
-
-
-
-
 
 {% block scripts %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
