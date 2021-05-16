@@ -1,5 +1,6 @@
 alembic==1.6.2
 click==8.0.0
+config==0.5.0.post0
 dominate==2.6.0
 Flask==2.0.0
 Flask-Bootstrap==3.3.7.1
