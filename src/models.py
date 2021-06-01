@@ -1,7 +1,7 @@
 import random
 import string
 from datetime import date
-from App import db
+from src import db
 
 
 class enterURL(db.Model):

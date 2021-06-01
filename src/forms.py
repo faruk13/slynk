@@ -1,6 +1,6 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
-from wtforms.validators import URL,ValidationError
+from wtforms.validators import URL, ValidationError
 #from App import urlValidAndExists
 
 import re

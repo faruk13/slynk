@@ -1,5 +1,3 @@
-
-
 from flask import Flask
 from config import Config
 from flask_sqlalchemy import SQLAlchemy
@@ -12,5 +10,6 @@ db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 bootstrap = Bootstrap(app)
 
-from App import routes, models, urlValidAndExists, errors
+from src import routes, models, errors
+# urlValidAndExists,
 
