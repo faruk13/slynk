@@ -1,1 +1,1 @@
-https://slynk.herokuapp.com
+short url generator
